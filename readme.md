@@ -1,9 +1,10 @@
-# Legal
+# ReadMe
+## Legal
 **THERE IS NO WARRANTY OF ANY TYPE PROVIDED, EXPRESS, STATED, IMPLIED, OR OTHERWISE. THERE IS NO SAFETY GUARANTEE PROVIDED OF ANY KIND.** 
 
 The provided descriptions and grade are for educational reference only, not a guarantee. There is no affiliation with the programs or developers of such programs by the author of the repository. The author of this repository shall not be held liable for any damages that come with the misuse or general use of any program on this list, nor held liable or responsible for any damages that come from the use of these security grades, descriptions, or audits. Nothing in this repository should be blindly trusted; your own independent research and verification should be conducted. The latest version of this document shall always supersede the previous versions. By viewing, scraping, or using, or accessing this readme file, the audits, the repository, or any other document listed in the repository, you submit consent to be bound by this legal disclaimer and agree to not hold the author liable for any damages related to these programs.
 
-# Description
+## Overview
 Agentic source-code security audits focused on auditing the security of certain projects/programs. The audit is done agentically with 6.1 Sol and 6.0 Astra from original source code, looking for server calls, ad-embedding, spyware and adware, credential security, and other potential security and privacy vulnerabilities. 
 
 _**Disclaimer:** The audits are on the source code of each project itself, and only for the specified version, not on installers. I always recommend building the program yourself to avoid adware and spyware._
