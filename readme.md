@@ -14,9 +14,13 @@ _**Disclaimer:** The audits are on the source code of each project itself, and o
 ![Medium](https://img.shields.io/badge/MEDIUM-d26d00?style=flat)
 ![Issues](https://img.shields.io/badge/ISSUES-a93731?style=flat)
 
-### Cheat Engine 7.5
-![Medium](https://img.shields.io/badge/MEDIUM-d26d00?style=flat) | The reviewed source includes embedded ad support and an April Fools purchase handler that downloads and executes server-provided Lua without a separate script permission prompt. Ads can be enabled by scripts or generated trainers; the purchase handler requires a button click during the April Fools feature. CE Share adds network requests and approved identifier scripts that can run again on later queries. No covert credential theft or unrelated background uploads were found in the reviewed paths. The remote Lua execution and advertising features support a Medium rating; included precompiled DLLs and runtime traffic were not verified.
+### Cheat Engine 7.5 ![Medium](https://img.shields.io/badge/MEDIUM-d26d00?style=flat) 
+The reviewed source includes embedded ad support and an April Fools purchase handler that downloads and executes server-provided Lua without a separate script permission prompt. Ads can be enabled by scripts or generated trainers; the purchase handler requires a button click during the April Fools feature. CE Share adds network requests and approved identifier scripts that can run again on later queries. No covert credential theft or unrelated background uploads were found in the reviewed paths. 
 
-### DepotDownloader 3.4.0
-![Medium](https://img.shields.io/badge/MEDIUM-d26d00?style=flat) | The source archive matches the official release tag, and the reviewed application contains no ads, bundled offers, or separate telemetry endpoint. Its main concern is credential handling: returned Steam refresh tokens are saved in compressed storage without application-level encryption, even when the remember-password option is absent. Whether Steam returns a usable token for a nonpersistent session was not established. Passwords entered as command-line arguments can also appear in shell history and process information. These credential risks support a Medium rating; dependency internals and runtime authentication traffic were outside the review.
+_The remote Lua execution and advertising features support a **medium** rating; included precompiled DLLs and runtime traffic were not verified._
+
+### DepotDownloader 3.4.0 ![Medium](https://img.shields.io/badge/MEDIUM-d26d00?style=flat)
+The source archive matches the official release tag, and the reviewed application contains no ads, bundled offers, or separate telemetry endpoint. Its main concern is credential handling: returned Steam refresh tokens are saved in compressed storage without application-level encryption, even when the remember-password option is absent. Whether Steam returns a usable token for a nonpersistent session was not established. Passwords entered as command-line arguments can also appear in shell history and process information. 
+
+_These credential risks support a **medium** rating; dependency internals and runtime authentication traffic were outside the review._
 
